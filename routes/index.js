@@ -194,7 +194,7 @@ router.post('/login', function (req, res) {
                             res.render('confirm', { value: 'You are Logged In.' });
                             break;
                         }
-                        else {
+                        else if(i==recordset.length) {
                             status = false;
                             console.log(status);
                             res.render('confirm', { value: 'Invalid Login' });
