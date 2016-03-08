@@ -6,9 +6,9 @@ var sql = require("mssql");
 
 var Connection = require("tedious").Connection;
 var dbConfig = {
-    server: "192.168.1.244",
-    user: "sa",
-    password: "sa@123",   
+    server: "jxqw748l9k.database.windows.net",
+    user: "gtadmin1@jxqw748l9k",
+    password: "M0rph!us",   
     port: 1433,
     options: { encrypt: true, database: 'PankajNodeJs' }
 };
